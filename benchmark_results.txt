@@ -1,0 +1,41 @@
+[---------------------------------------- adaptive_avg_pool2d -----------------------------------------]
+                                                                 |  Compile-pyimpl  |  Compile  |  Eager
+32 threads: --------------------------------------------------------------------------------------------
+      input.shape=torch.Size([8, 3, 256, 256]), out_size=129     |        295       |     145   |    236
+      input.shape=torch.Size([8, 3, 256, 256]), out_size=85      |        168       |     140   |    230
+      input.shape=torch.Size([8, 3, 256, 256]), out_size=65      |        241       |     154   |    232
+      input.shape=torch.Size([8, 3, 256, 256]), out_size=51      |        182       |     162   |    239
+      input.shape=torch.Size([8, 3, 512, 512]), out_size=257     |       1109       |     564   |    878
+      input.shape=torch.Size([8, 3, 512, 512]), out_size=170     |        618       |     614   |    869
+      input.shape=torch.Size([8, 3, 512, 512]), out_size=129     |        897       |     575   |    850
+      input.shape=torch.Size([8, 3, 512, 512]), out_size=102     |        678       |     629   |    893
+      input.shape=torch.Size([8, 3, 1024, 1024]), out_size=513   |       4383       |    2270   |   3410
+      input.shape=torch.Size([8, 3, 1024, 1024]), out_size=341   |       2436       |    2221   |   3410
+      input.shape=torch.Size([8, 3, 1024, 1024]), out_size=257   |       3520       |    2265   |   3350
+      input.shape=torch.Size([8, 3, 1024, 1024]), out_size=204   |       2677       |    2462   |   3492
+      input.shape=torch.Size([16, 3, 256, 256]), out_size=129    |        571       |     283   |    451
+      input.shape=torch.Size([16, 3, 256, 256]), out_size=85     |        320       |     277   |    435
+      input.shape=torch.Size([16, 3, 256, 256]), out_size=65     |        466       |     294   |    441
+      input.shape=torch.Size([16, 3, 256, 256]), out_size=51     |        350       |     306   |    444
+      input.shape=torch.Size([16, 3, 512, 512]), out_size=257    |       2216       |    1095   |   1720
+      input.shape=torch.Size([16, 3, 512, 512]), out_size=170    |       1230       |    1220   |   1714
+      input.shape=torch.Size([16, 3, 512, 512]), out_size=129    |       1788       |    1138   |   1667
+      input.shape=torch.Size([16, 3, 512, 512]), out_size=102    |       1352       |    1253   |   1773
+      input.shape=torch.Size([16, 3, 1024, 1024]), out_size=513  |       8798       |    4548   |   6850
+      input.shape=torch.Size([16, 3, 1024, 1024]), out_size=341  |       4918       |    4475   |   6800
+      input.shape=torch.Size([16, 3, 1024, 1024]), out_size=257  |       7085       |    4519   |   6700
+      input.shape=torch.Size([16, 3, 1024, 1024]), out_size=204  |       5444       |    4934   |   7000
+      input.shape=torch.Size([32, 3, 256, 256]), out_size=129    |       1100       |     548   |    878
+      input.shape=torch.Size([32, 3, 256, 256]), out_size=85     |        639       |     539   |    844
+      input.shape=torch.Size([32, 3, 256, 256]), out_size=65     |        920       |     567   |    848
+      input.shape=torch.Size([32, 3, 256, 256]), out_size=51     |        690       |     597   |    863
+      input.shape=torch.Size([32, 3, 512, 512]), out_size=257    |       4446       |    2179   |   3420
+      input.shape=torch.Size([32, 3, 512, 512]), out_size=170    |       2416       |    2423   |   3420
+      input.shape=torch.Size([32, 3, 512, 512]), out_size=129    |       3580       |    2263   |   3310
+      input.shape=torch.Size([32, 3, 512, 512]), out_size=102    |       2717       |    2480   |   3507
+      input.shape=torch.Size([32, 3, 1024, 1024]), out_size=513  |      17750       |    9162   |  13700
+      input.shape=torch.Size([32, 3, 1024, 1024]), out_size=341  |       9966       |    8957   |  13000
+      input.shape=torch.Size([32, 3, 1024, 1024]), out_size=257  |      14230       |    9041   |  14000
+      input.shape=torch.Size([32, 3, 1024, 1024]), out_size=204  |      11020       |    9855   |  10000
+
+Times are in microseconds (us).
